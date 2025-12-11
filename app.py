@@ -100,7 +100,7 @@ with col2:
         # Display results in a styled box
         st.markdown(f"""
         <div class="result-box">
-            <div class="result-title">Predicted Class:</div>
+            <div class="result-title">Prediction:</div>
             <div class="result-value">{prediction}</div>
         </div>
         """, unsafe_allow_html=True)
@@ -159,6 +159,6 @@ Developed by SHUBHAM | Powered by Deep Learning Technology.
 # Footer
 st.markdown("---")
 st.markdown(
-    '<p style="text-align: center; color: #666;">Powered by AI • Fast & Accurate Detection</p>',
+    '<p style="text-align: center; color: #666;">Made by SHUBHAM • Fast & Accurate Detection</p>',
     unsafe_allow_html=True
 )
